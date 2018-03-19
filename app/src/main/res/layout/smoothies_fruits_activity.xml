@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Je possède..."
+        android:textSize="25dp"
+        android:textColor="@color/black"
+        android:gravity="center" />
+
+    <NumberPicker
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_margin="16dp"></NumberPicker>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <AutoCompleteTextView
+            android:id="@+id/fruit1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="5dp"
+            android:ems="10"
+            android:layout_weight="1"
+            android:hint="Votre premier fruit" />
+
+        <Spinner
+            android:id="@+id/spinner1"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:background="@android:drawable/btn_dropdown"
+            android:spinnerMode="dropdown"
+            android:layout_weight="2"
+            android:prompt="@string/hint_resource" />
+
+    </LinearLayout>
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="5dp"
+    android:layout_weight="1"
+    android:orientation="horizontal">
+
+    <AutoCompleteTextView
+        android:id="@+id/fruit2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:layout_weight="1"
+        android:hint="Votre premier fruit" />
+
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:background="@android:drawable/btn_dropdown"
+        android:spinnerMode="dropdown"
+        android:layout_weight="2"
+        android:prompt="@string/hint_resource" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <AutoCompleteTextView
+            android:id="@+id/fruit3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="5dp"
+            android:ems="10"
+            android:layout_weight="1"
+            android:hint="Votre premier fruit" />
+
+        <Spinner
+            android:id="@+id/spinner3"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:background="@android:drawable/btn_dropdown"
+            android:spinnerMode="dropdown"
+            android:layout_weight="2"
+            android:prompt="@string/hint_resource" />
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Rechercher" />
+
+
+</LinearLayout>
